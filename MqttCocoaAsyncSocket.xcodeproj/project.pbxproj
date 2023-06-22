@@ -7,21 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AB7B6A528E458AD003ED9BF /* MqttCocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB7B6A928E458BB003ED9BF /* MqttCocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6AA28E458BC003ED9BF /* MqttCocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6D128E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB7B6D228E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6D328E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6D428E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */; };
 		4AB7B6D528E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */; };
-		4AB7B6D628E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */; };
-		4AB7B6D728E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB7B6D828E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6D928E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6DA28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */; };
 		4AB7B6DB28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */; };
-		4AB7B6DC28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,26 +21,10 @@
 		4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDAsyncSocket.m; sourceTree = "<group>"; };
-		6CD990101B77868C0011A685 /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D8B70C41BCFA15700D8E273 /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC41F131B9D965000578BEB /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6CD9900C1B77868C0011A685 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D8B70C01BCFA15700D8E273 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FC41F0F1B9D965000578BEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,9 +57,7 @@
 		6CD990111B77868C0011A685 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CD990101B77868C0011A685 /* MqttCocoaAsyncSocket.framework */,
 				9FC41F131B9D965000578BEB /* MqttCocoaAsyncSocket.framework */,
-				7D8B70C41BCFA15700D8E273 /* MqttCocoaAsyncSocket.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,26 +75,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6CD9900D1B77868C0011A685 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AB7B6A528E458AD003ED9BF /* MqttCocoaAsyncSocket.h in Headers */,
-				4AB7B6D728E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */,
-				4AB7B6D128E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D8B70C11BCFA15700D8E273 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AB7B6AA28E458BC003ED9BF /* MqttCocoaAsyncSocket.h in Headers */,
-				4AB7B6D928E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */,
-				4AB7B6D328E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FC41F101B9D965000578BEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,42 +88,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6CD9900F1B77868C0011A685 /* iOS MqttCocoaAsyncSocket */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6CD990241B77868C0011A685 /* Build configuration list for PBXNativeTarget "iOS MqttCocoaAsyncSocket" */;
-			buildPhases = (
-				6CD9900B1B77868C0011A685 /* Sources */,
-				6CD9900C1B77868C0011A685 /* Frameworks */,
-				6CD9900D1B77868C0011A685 /* Headers */,
-				6CD9900E1B77868C0011A685 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "iOS MqttCocoaAsyncSocket";
-			productName = CocoaAsyncSocket;
-			productReference = 6CD990101B77868C0011A685 /* MqttCocoaAsyncSocket.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7D8B70C31BCFA15700D8E273 /* tvOS MqttCocoaAsyncSocket */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7D8B70CB1BCFA15700D8E273 /* Build configuration list for PBXNativeTarget "tvOS MqttCocoaAsyncSocket" */;
-			buildPhases = (
-				7D8B70BF1BCFA15700D8E273 /* Sources */,
-				7D8B70C01BCFA15700D8E273 /* Frameworks */,
-				7D8B70C11BCFA15700D8E273 /* Headers */,
-				7D8B70C21BCFA15700D8E273 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "tvOS MqttCocoaAsyncSocket";
-			productName = "tvOS CocoaAsyncSocket";
-			productReference = 7D8B70C41BCFA15700D8E273 /* MqttCocoaAsyncSocket.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9FC41F121B9D965000578BEB /* Mac MqttCocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC41F261B9D965000578BEB /* Build configuration list for PBXNativeTarget "Mac MqttCocoaAsyncSocket" */;
@@ -199,14 +115,6 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Robbie Hanson";
 				TargetAttributes = {
-					6CD9900F1B77868C0011A685 = {
-						CreatedOnToolsVersion = 7.0;
-						ProvisioningStyle = Automatic;
-					};
-					7D8B70C31BCFA15700D8E273 = {
-						CreatedOnToolsVersion = 7.1;
-						ProvisioningStyle = Automatic;
-					};
 					9FC41F121B9D965000578BEB = {
 						CreatedOnToolsVersion = 6.4;
 						ProvisioningStyle = Automatic;
@@ -226,28 +134,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CD9900F1B77868C0011A685 /* iOS MqttCocoaAsyncSocket */,
 				9FC41F121B9D965000578BEB /* Mac MqttCocoaAsyncSocket */,
-				7D8B70C31BCFA15700D8E273 /* tvOS MqttCocoaAsyncSocket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6CD9900E1B77868C0011A685 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D8B70C21BCFA15700D8E273 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FC41F111B9D965000578BEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,24 +150,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6CD9900B1B77868C0011A685 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AB7B6DA28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */,
-				4AB7B6D428E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D8B70BF1BCFA15700D8E273 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AB7B6DC28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */,
-				4AB7B6D628E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FC41F0E1B9D965000578BEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,7 +228,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -420,105 +294,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6CD990251B77868C0011A685 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = MqttCocoaAsyncSocket;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6CD990261B77868C0011A685 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = MqttCocoaAsyncSocket;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7D8B70C91BCFA15700D8E273 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = MqttCocoaAsyncSocket;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		7D8B70CA1BCFA15700D8E273 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = MqttCocoaAsyncSocket;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -586,24 +366,6 @@
 			buildConfigurations = (
 				6CD990221B77868C0011A685 /* Debug */,
 				6CD990231B77868C0011A685 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6CD990241B77868C0011A685 /* Build configuration list for PBXNativeTarget "iOS MqttCocoaAsyncSocket" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6CD990251B77868C0011A685 /* Debug */,
-				6CD990261B77868C0011A685 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D8B70CB1BCFA15700D8E273 /* Build configuration list for PBXNativeTarget "tvOS MqttCocoaAsyncSocket" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D8B70C91BCFA15700D8E273 /* Debug */,
-				7D8B70CA1BCFA15700D8E273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
